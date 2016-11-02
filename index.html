@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Weather App</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Stylesheets go here. -->
+  <script src="https://use.fontawesome.com/bfd4e076b7.js"></script>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/global.css" />
+  <link href="css/owfont-regular.min.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <br>
+    <br>
+    <div class="container weatherApp-bg">
+      <div class="row">
+        <div class=".col-sm-3 .offset-md-3 text-center">
+          <header class="weatherAppText">
+            <br>
+            <br>
+            <h2 class="text-capitalize" id="city">Indianapolis</h2>
+            <p class="text-capitalize" id="date">novermber 1st <span class="text-lowercase">at</span> 2:05pm</p>
+          </header>
+          <main>
+            <br>
+            <h1 class="weatherAppText degreeText"><b id="temp">82</b><span><sup>o</sup></span></h1>
+            <h4 class="weatherAppTextLight text-capitalize" id="tempTitle">Mostly Cloudy</h4><br>
+            <div class="btn-group" role="group" aria-label="...">
+              <button type="button" class="btn btn-default btn-info">Left</button>
+              <button type="button" class="btn btn-default btn-info">Middle</button>
+              <button type="button" class="btn btn-default btn-info">Right</button>
+            </div>
+            <br>
+            <br>
+          </main>
+        </div>
+      </div>
+    </div>
+
+  <!-- Content goes here. -->
+
+  <!-- Scripts go here. -->
+  <script type="text/javascript" src="https://cdn.polyfill.io/v2/polyfill.min.js?features=fetch"></script>
+  <script type="text/javascript" src="js/global.js"></script>
+  <script src="./node_modules/moment/min/moment.min.js"></script>
+</body>
+</html>

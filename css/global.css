@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: lightgray;
+  width: 100%;
+}
+
+.weatherApp-bg {
+  background: linear-gradient(#BCF9FE, #0096BB);
+  width: 250px;
+  border: 1px solid #0096BB;
+  border-radius: 10px;
+  height: 425px;
+}
+
+.weatherAppText {
+  color: #0096BB;
+}
+
+.weatherAppTextLight {
+  color: #BCF9FE;
+  font-size: 150%;
+}
+
+.degreeText {
+  font-size: 500%;
+  padding-left: 25px;
+}

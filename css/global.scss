@@ -1,0 +1,36 @@
+$darkAppColor: #0096BB;
+$lightAppColor: #BCF9FE;
+
+*{
+    box-sizing: border-box;
+}
+//Generic Styling
+body {
+    background: lightgray;
+    width: 100%;
+}
+.weatherApp-bg{
+    background: linear-gradient($lightAppColor, $darkAppColor);
+    // opacity: .65;
+    width: 250px;
+    border: 1px solid $darkAppColor;
+    border-radius: 10px;
+    height: 425px;
+
+}
+//Styling for the Header section
+.weatherAppText{
+    color: $darkAppColor;
+}
+
+//Styling for the Main section
+.weatherAppTextLight{
+    color: $lightAppColor;
+    font-size: 150%;
+}
+.degreeText{
+    font-size: 500%;
+    padding-left: 25px;
+}
+
+//Styling for the Footer section
